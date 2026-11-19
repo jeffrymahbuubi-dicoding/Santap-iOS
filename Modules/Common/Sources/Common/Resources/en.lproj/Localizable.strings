@@ -1,0 +1,49 @@
+"common_retry" = "Try Again";
+"common_ok" = "OK";
+"common_loading" = "Loading…";
+"common_rating" = "Rating %@";
+
+"tab_home" = "Home";
+"tab_favorite" = "Favorites";
+"tab_about" = "About";
+
+"home_title" = "Santap";
+"home_search_prompt" = "Search restaurants";
+"home_loading" = "Loading restaurants…";
+"home_empty" = "No restaurants yet";
+"home_empty_search" = "No restaurants for “%@”";
+"home_refresh_error_title" = "Refresh Failed";
+"home_filter_button" = "Filter by city";
+"home_filter_all" = "All cities";
+"home_filter_active" = "City: %@";
+
+"detail_save_error_title" = "Could Not Save";
+"detail_favorite_add" = "Add to Favorites";
+"detail_favorite_remove" = "Remove from Favorites";
+"detail_description" = "Description";
+"detail_menu" = "Menu";
+"detail_foods" = "Food";
+"detail_drinks" = "Drinks";
+"detail_reviews" = "Reviews";
+
+"favorite_title" = "Favorites";
+"favorite_loading" = "Loading favorites…";
+"favorite_empty_title" = "No favorite restaurants yet";
+"favorite_empty_subtitle" = "Tap the heart icon on the detail page to add one.";
+"favorite_delete" = "Delete";
+"favorite_save_error_title" = "Could Not Save";
+
+"about_title" = "About";
+"about_app_heading" = "About the App";
+"about_app_description" = "Santap is a restaurant catalogue for searching, viewing details, and saving favorite restaurants.";
+"about_data_source" = "Data source: Dicoding Restaurant API";
+"about_photo_label" = "Profile photo";
+"about_error" = "The profile could not be loaded";
+
+"error_network_no_connection" = "Cannot connect to the network. Check your internet connection.";
+"error_network_not_found" = "The requested data was not found.";
+"error_network_server" = "The server could not process the request (code %lld).";
+"error_network_invalid_data" = "The data from the server could not be read.";
+"error_database_unavailable" = "The data store could not be opened.";
+"error_database_operation_failed" = "The data could not be saved or read.";
+"error_database_missing_value" = "The %@ data is not available.";

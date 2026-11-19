@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D209C0DE5A7A00000000E095 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D209C0DE5A7A00000000E093 /* Swinject */; };
+		D209C0DE5A7A00000000E121 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = D209C0DE5A7A00000000E111 /* Home */; };
+		D209C0DE5A7A00000000E122 /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = D209C0DE5A7A00000000E112 /* Detail */; };
+		D209C0DE5A7A00000000E123 /* Favorite in Frameworks */ = {isa = PBXBuildFile; productRef = D209C0DE5A7A00000000E113 /* Favorite */; };
+		D209C0DE5A7A00000000E124 /* About in Frameworks */ = {isa = PBXBuildFile; productRef = D209C0DE5A7A00000000E114 /* About */; };
+		D209C0DE5A7A00000000E125 /* Restaurant in Frameworks */ = {isa = PBXBuildFile; productRef = D209C0DE5A7A00000000E115 /* Restaurant */; };
+		D209C0DE5A7A00000000E126 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = D209C0DE5A7A00000000E116 /* Common */; };
+		D209C0DE5A7A00000000E127 /* SantapCore in Frameworks */ = {isa = PBXBuildFile; productRef = D209C0DE5A7A00000000E117 /* SantapCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D209C0DE5A7A00000000E082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D209C0DE5A7A00000000E001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D209C0DE5A7A00000000E040;
+			remoteInfo = Santap;
+		};
+		D209C0DE5A7A00000000E083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D209C0DE5A7A00000000E001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D209C0DE5A7A00000000E040;
+			remoteInfo = Santap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D209C0DE5A7A00000000E020 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+		D209C0DE5A7A00000000E021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D209C0DE5A7A00000000E030 /* Santap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Santap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D209C0DE5A7A00000000E031 /* SantapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D209C0DE5A7A00000000E032 /* SantapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D209C0DE5A7A00000000E010 /* Santap */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Santap;
+			sourceTree = "<group>";
+		};
+		D209C0DE5A7A00000000E011 /* SantapTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SantapTests;
+			sourceTree = "<group>";
+		};
+		D209C0DE5A7A00000000E012 /* SantapUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SantapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D209C0DE5A7A00000000E051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209C0DE5A7A00000000E121 /* Home in Frameworks */,
+				D209C0DE5A7A00000000E122 /* Detail in Frameworks */,
+				D209C0DE5A7A00000000E123 /* Favorite in Frameworks */,
+				D209C0DE5A7A00000000E124 /* About in Frameworks */,
+				D209C0DE5A7A00000000E125 /* Restaurant in Frameworks */,
+				D209C0DE5A7A00000000E126 /* Common in Frameworks */,
+				D209C0DE5A7A00000000E127 /* SantapCore in Frameworks */,
+				D209C0DE5A7A00000000E095 /* Swinject in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209C0DE5A7A00000000E055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209C0DE5A7A00000000E058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D209C0DE5A7A00000000E002 = {
+			isa = PBXGroup;
+			children = (
+				D209C0DE5A7A00000000E004 /* Config */,
+				D209C0DE5A7A00000000E010 /* Santap */,
+				D209C0DE5A7A00000000E011 /* SantapTests */,
+				D209C0DE5A7A00000000E012 /* SantapUITests */,
+				D209C0DE5A7A00000000E003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D209C0DE5A7A00000000E003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D209C0DE5A7A00000000E030 /* Santap.app */,
+				D209C0DE5A7A00000000E031 /* SantapTests.xctest */,
+				D209C0DE5A7A00000000E032 /* SantapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D209C0DE5A7A00000000E004 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D209C0DE5A7A00000000E020 /* App.xcconfig */,
+				D209C0DE5A7A00000000E021 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D209C0DE5A7A00000000E040 /* Santap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209C0DE5A7A00000000E061 /* Build configuration list for PBXNativeTarget "Santap" */;
+			buildPhases = (
+				D209C0DE5A7A00000000E050 /* Sources */,
+				D209C0DE5A7A00000000E053 /* SwiftLint */,
+				D209C0DE5A7A00000000E051 /* Frameworks */,
+				D209C0DE5A7A00000000E052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D209C0DE5A7A00000000E010 /* Santap */,
+			);
+			name = Santap;
+			packageProductDependencies = (
+				D209C0DE5A7A00000000E111 /* Home */,
+				D209C0DE5A7A00000000E112 /* Detail */,
+				D209C0DE5A7A00000000E113 /* Favorite */,
+				D209C0DE5A7A00000000E114 /* About */,
+				D209C0DE5A7A00000000E115 /* Restaurant */,
+				D209C0DE5A7A00000000E116 /* Common */,
+				D209C0DE5A7A00000000E117 /* SantapCore */,
+				D209C0DE5A7A00000000E093 /* Swinject */,
+			);
+			productName = Santap;
+			productReference = D209C0DE5A7A00000000E030 /* Santap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D209C0DE5A7A00000000E041 /* SantapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209C0DE5A7A00000000E062 /* Build configuration list for PBXNativeTarget "SantapTests" */;
+			buildPhases = (
+				D209C0DE5A7A00000000E054 /* Sources */,
+				D209C0DE5A7A00000000E055 /* Frameworks */,
+				D209C0DE5A7A00000000E056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D209C0DE5A7A00000000E080 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D209C0DE5A7A00000000E011 /* SantapTests */,
+			);
+			name = SantapTests;
+			packageProductDependencies = (
+			);
+			productName = SantapTests;
+			productReference = D209C0DE5A7A00000000E031 /* SantapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D209C0DE5A7A00000000E042 /* SantapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209C0DE5A7A00000000E063 /* Build configuration list for PBXNativeTarget "SantapUITests" */;
+			buildPhases = (
+				D209C0DE5A7A00000000E057 /* Sources */,
+				D209C0DE5A7A00000000E058 /* Frameworks */,
+				D209C0DE5A7A00000000E059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D209C0DE5A7A00000000E081 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D209C0DE5A7A00000000E012 /* SantapUITests */,
+			);
+			name = SantapUITests;
+			packageProductDependencies = (
+			);
+			productName = SantapUITests;
+			productReference = D209C0DE5A7A00000000E032 /* SantapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D209C0DE5A7A00000000E001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D209C0DE5A7A00000000E040 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D209C0DE5A7A00000000E041 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D209C0DE5A7A00000000E040;
+					};
+					D209C0DE5A7A00000000E042 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D209C0DE5A7A00000000E040;
+					};
+				};
+			};
+			buildConfigurationList = D209C0DE5A7A00000000E060 /* Build configuration list for PBXProject "Santap" */;
+			developmentRegion = id;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				id,
+				Base,
+			);
+			mainGroup = D209C0DE5A7A00000000E002;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D209C0DE5A7A00000000E101 /* XCLocalSwiftPackageReference "Modules/Home" */,
+				D209C0DE5A7A00000000E102 /* XCLocalSwiftPackageReference "Modules/Detail" */,
+				D209C0DE5A7A00000000E103 /* XCLocalSwiftPackageReference "Modules/Favorite" */,
+				D209C0DE5A7A00000000E104 /* XCLocalSwiftPackageReference "Modules/About" */,
+				D209C0DE5A7A00000000E105 /* XCLocalSwiftPackageReference "Modules/Restaurant" */,
+				D209C0DE5A7A00000000E106 /* XCLocalSwiftPackageReference "Modules/Common" */,
+				D209C0DE5A7A00000000E107 /* XCRemoteSwiftPackageReference "SantapCore" */,
+				D209C0DE5A7A00000000E091 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D209C0DE5A7A00000000E003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D209C0DE5A7A00000000E040 /* Santap */,
+				D209C0DE5A7A00000000E041 /* SantapTests */,
+				D209C0DE5A7A00000000E042 /* SantapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D209C0DE5A7A00000000E052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209C0DE5A7A00000000E056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209C0DE5A7A00000000E059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D209C0DE5A7A00000000E053 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif command -v swiftlint >/dev/null 2>&1; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint is not installed, see https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D209C0DE5A7A00000000E050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209C0DE5A7A00000000E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209C0DE5A7A00000000E057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D209C0DE5A7A00000000E080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D209C0DE5A7A00000000E040 /* Santap */;
+			targetProxy = D209C0DE5A7A00000000E082 /* PBXContainerItemProxy */;
+		};
+		D209C0DE5A7A00000000E081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D209C0DE5A7A00000000E040 /* Santap */;
+			targetProxy = D209C0DE5A7A00000000E083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D209C0DE5A7A00000000E070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D209C0DE5A7A00000000E071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D209C0DE5A7A00000000E072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D209C0DE5A7A00000000E020 /* App.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Santap;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.santap.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D209C0DE5A7A00000000E073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D209C0DE5A7A00000000E020 /* App.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Santap;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.santap.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D209C0DE5A7A00000000E074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.santap.appTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Santap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Santap";
+			};
+			name = Debug;
+		};
+		D209C0DE5A7A00000000E075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.santap.appTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Santap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Santap";
+			};
+			name = Release;
+		};
+		D209C0DE5A7A00000000E076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.santap.appUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Santap;
+			};
+			name = Debug;
+		};
+		D209C0DE5A7A00000000E077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.santap.appUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Santap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D209C0DE5A7A00000000E060 /* Build configuration list for PBXProject "Santap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209C0DE5A7A00000000E070 /* Debug */,
+				D209C0DE5A7A00000000E071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D209C0DE5A7A00000000E061 /* Build configuration list for PBXNativeTarget "Santap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209C0DE5A7A00000000E072 /* Debug */,
+				D209C0DE5A7A00000000E073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D209C0DE5A7A00000000E062 /* Build configuration list for PBXNativeTarget "SantapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209C0DE5A7A00000000E074 /* Debug */,
+				D209C0DE5A7A00000000E075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D209C0DE5A7A00000000E063 /* Build configuration list for PBXNativeTarget "SantapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209C0DE5A7A00000000E076 /* Debug */,
+				D209C0DE5A7A00000000E077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D209C0DE5A7A00000000E101 /* XCLocalSwiftPackageReference "Modules/Home" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/Home;
+		};
+		D209C0DE5A7A00000000E102 /* XCLocalSwiftPackageReference "Modules/Detail" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/Detail;
+		};
+		D209C0DE5A7A00000000E103 /* XCLocalSwiftPackageReference "Modules/Favorite" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/Favorite;
+		};
+		D209C0DE5A7A00000000E104 /* XCLocalSwiftPackageReference "Modules/About" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/About;
+		};
+		D209C0DE5A7A00000000E105 /* XCLocalSwiftPackageReference "Modules/Restaurant" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/Restaurant;
+		};
+		D209C0DE5A7A00000000E106 /* XCLocalSwiftPackageReference "Modules/Common" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/Common;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D209C0DE5A7A00000000E107 /* XCRemoteSwiftPackageReference "SantapCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jeffrymahbuubi-dicoding/SantapCore.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		D209C0DE5A7A00000000E091 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D209C0DE5A7A00000000E111 /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+		D209C0DE5A7A00000000E112 /* Detail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Detail;
+		};
+		D209C0DE5A7A00000000E113 /* Favorite */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Favorite;
+		};
+		D209C0DE5A7A00000000E114 /* About */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = About;
+		};
+		D209C0DE5A7A00000000E115 /* Restaurant */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Restaurant;
+		};
+		D209C0DE5A7A00000000E116 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		D209C0DE5A7A00000000E117 /* SantapCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D209C0DE5A7A00000000E107 /* XCRemoteSwiftPackageReference "SantapCore" */;
+			productName = SantapCore;
+		};
+		D209C0DE5A7A00000000E093 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D209C0DE5A7A00000000E091 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D209C0DE5A7A00000000E001 /* Project object */;
+}

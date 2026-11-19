@@ -1,0 +1,33 @@
+{
+  "originHash" : "6acf0491cec7684af0d437ecdc360a08ba46f128e711ea72305bc5b2d90ce5a8",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "bda9ed57d72988a3a2ada33d824583541f86eac6",
+        "version" : "5.12.2"
+      }
+    },
+    {
+      "identity" : "santapcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jeffrymahbuubi-dicoding/SantapCore.git",
+      "state" : {
+        "revision" : "0b9384b7d9f8088ecf2268e5abaf81435adc5a50",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject",
+      "state" : {
+        "revision" : "b685b549fe4d8ae265fc7a2f27d0789720425d69",
+        "version" : "2.10.0"
+      }
+    }
+  ],
+  "version" : 3
+}

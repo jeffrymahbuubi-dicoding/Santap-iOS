@@ -1,0 +1,16 @@
+included:
+  - Santap
+  - SantapTests
+  - SantapUITests
+  - Modules
+
+excluded:
+  - "**/.build"
+
+opt_in_rules:
+  - indentation_width
+
+indentation_width:
+  indentation_width: 2
+
+line_length: 120

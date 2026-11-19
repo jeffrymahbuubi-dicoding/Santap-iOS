@@ -1,0 +1,49 @@
+"common_retry" = "Coba Lagi";
+"common_ok" = "OK";
+"common_loading" = "Memuat…";
+"common_rating" = "Rating %@";
+
+"tab_home" = "Beranda";
+"tab_favorite" = "Favorit";
+"tab_about" = "Tentang";
+
+"home_title" = "Santap";
+"home_search_prompt" = "Cari restoran";
+"home_loading" = "Memuat restoran…";
+"home_empty" = "Belum ada restoran";
+"home_empty_search" = "Tidak ada restoran untuk “%@”";
+"home_refresh_error_title" = "Gagal Memuat Ulang";
+"home_filter_button" = "Filter kota";
+"home_filter_all" = "Semua kota";
+"home_filter_active" = "Kota: %@";
+
+"detail_save_error_title" = "Gagal Menyimpan";
+"detail_favorite_add" = "Tambah ke Favorit";
+"detail_favorite_remove" = "Hapus dari Favorit";
+"detail_description" = "Deskripsi";
+"detail_menu" = "Menu";
+"detail_foods" = "Makanan";
+"detail_drinks" = "Minuman";
+"detail_reviews" = "Ulasan";
+
+"favorite_title" = "Favorit";
+"favorite_loading" = "Memuat favorit…";
+"favorite_empty_title" = "Belum ada restoran favorit";
+"favorite_empty_subtitle" = "Ketuk ikon hati di halaman detail untuk menambahkan.";
+"favorite_delete" = "Hapus";
+"favorite_save_error_title" = "Gagal Menyimpan";
+
+"about_title" = "Tentang";
+"about_app_heading" = "Tentang Aplikasi";
+"about_app_description" = "Santap adalah katalog restoran untuk mencari, melihat detail, dan menyimpan restoran favorit.";
+"about_data_source" = "Sumber data: Dicoding Restaurant API";
+"about_photo_label" = "Foto profil";
+"about_error" = "Profil tidak dapat dimuat";
+
+"error_network_no_connection" = "Tidak dapat terhubung ke jaringan. Periksa koneksi internet Anda.";
+"error_network_not_found" = "Data yang diminta tidak ditemukan.";
+"error_network_server" = "Server tidak dapat memproses permintaan (kode %lld).";
+"error_network_invalid_data" = "Data dari server tidak dapat dibaca.";
+"error_database_unavailable" = "Penyimpanan data tidak dapat dibuka.";
+"error_database_operation_failed" = "Data tidak dapat disimpan atau dibaca.";
+"error_database_missing_value" = "Data %@ tidak tersedia.";

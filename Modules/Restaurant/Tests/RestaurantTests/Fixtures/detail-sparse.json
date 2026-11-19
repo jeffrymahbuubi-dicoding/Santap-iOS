@@ -1,0 +1,11 @@
+{
+  "error": false,
+  "restaurant": {
+    "id": "a9",
+    "name": "Sparse",
+    "address": null,
+    "categories": null,
+    "menus": {"foods": [{"name": null}, {"name": "Roti"}]},
+    "customerReviews": [{"name": "Dewi"}]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "error": false,
+  "message": "success",
+  "count": 3,
+  "restaurants": [
+    {"id": "a1", "name": "Melting Pot", "description": "Lorem ipsum dolor sit amet.", "pictureId": "14", "city": "Medan", "rating": 4.2},
+    {"id": "a2", "name": "Kafe Kita", "description": "Sed ut perspiciatis.", "pictureId": null, "city": "Gorontalo", "rating": 4},
+    {"id": "a3", "name": "Tanpa Detail"}
+  ]
+}

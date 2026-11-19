@@ -1,0 +1,7 @@
+{
+  "error": false,
+  "founded": 1,
+  "restaurants": [
+    {"id": "s1", "name": "Kafe Kita", "description": "Sed ut perspiciatis.", "pictureId": "25", "city": "Gorontalo", "rating": 4.0}
+  ]
+}
