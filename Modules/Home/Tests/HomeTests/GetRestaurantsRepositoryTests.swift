@@ -13,7 +13,7 @@ final class GetRestaurantsRepositoryTests: XCTestCase {
     locale = StubLocaleDataSource()
   }
 
-  private func makeRepository(locale: any LocaleDataSource<RestaurantListRequest, RestaurantEntity>? = nil)
+  private func makeRepository(locale: (any LocaleDataSource<RestaurantListRequest, RestaurantEntity>)? = nil)
     -> GetRestaurantsRepository {
     GetRestaurantsRepository(locale: locale ?? self.locale, remote: remote, mapper: RestaurantMapper())
   }
