@@ -34,7 +34,6 @@ jobs:
     timeout-minutes: 45
     env:
       PACKAGES: Common Restaurant Home Detail Favorite About
-      RESULTS: ${{ runner.temp }}/results
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -56,7 +55,8 @@ jobs:
           fi
           echo "Using simulator $UDID"
           echo "UDID=$UDID" >> "$GITHUB_ENV"
-          mkdir -p "$RESULTS"
+          echo "RESULTS=$RUNNER_TEMP/results" >> "$GITHUB_ENV"
+          mkdir -p "$RUNNER_TEMP/results"
 
       - name: Test the packages
         shell: bash
